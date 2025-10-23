@@ -1,0 +1,12 @@
+[package]
+name = "digitemp_rust"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "digitemp_native"
+path = "src/native.rs"
+
+[dependencies]
+serialport = "4.4"
+clap = { version = "4.0", features = ["derive"] }
